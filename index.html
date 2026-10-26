@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>صالون غزالي | Ghzali Beauty — العارض، الرياض</title>
+<meta name="description" content="صالون غزالي — صالون نسائي في حي العارض بالرياض: شعر، بشرة، ليزر، أظافر، مكياج، حمام وسبا وتجهيز العروس.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--brown:#5B4022;--taupe:#84765E;--cream:#F6F2EC;--sand:#E9D9C8;--ink:#2E2A26}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:'Readex Pro',sans-serif;background:var(--cream);color:var(--ink);line-height:1.8}
+img{max-width:100%;display:block}a{color:inherit}
+.wrap{max-width:1140px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:50;background:rgba(246,242,236,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--sand)}
+nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:1.15rem;color:var(--brown);text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.links{display:flex;gap:20px;font-weight:400;font-size:.95rem}.links a{text-decoration:none}.links a:hover{color:var(--brown)}
+#demoBadge{position:fixed;top:76px;left:14px;z-index:60;background:var(--brown);color:#fff;font-size:.78rem;font-weight:600;padding:5px 12px;border-radius:999px;box-shadow:0 4px 14px rgba(91,64,34,.35)}
+.btn{display:inline-block;background:var(--brown);color:#fff;border:0;border-radius:999px;padding:13px 30px;font:600 1.02rem 'Readex Pro',sans-serif;cursor:pointer;text-decoration:none;transition:.2s}
+.btn:hover{background:#47321a;transform:translateY(-2px)}.btn.ghost{background:transparent;color:var(--brown);border:2px solid var(--brown)}
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;background:url(img/p24.jpg) center/cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(46,42,38,.1) 15%,rgba(60,40,20,.85))}
+.hero .wrap{position:relative;padding-bottom:70px}
+.rating{display:inline-flex;gap:8px;align-items:center;background:rgba(246,242,236,.95);color:var(--ink);border-radius:999px;padding:6px 16px;font-weight:600;margin-bottom:16px}.rating b{color:var(--brown)}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.25;font-weight:700}
+.tag{font-size:1.3rem;margin-top:6px;opacity:.95}
+.hero p.lead{font-size:1.05rem;max-width:560px;margin:12px 0 24px;opacity:.92;font-weight:300}
+.hero .ghost{color:#fff;border-color:#fff;margin-inline-start:8px}
+section{padding:80px 0}.kick{color:var(--taupe);font-weight:600;letter-spacing:1px}
+h2{font-size:clamp(1.6rem,4vw,2.3rem);margin-bottom:26px;line-height:1.35;color:var(--brown);font-weight:600}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 8px 28px rgba(91,64,34,.08)}
+.card img{height:200px;width:100%;object-fit:cover}.card div{padding:18px}.card h3{font-size:1.1rem;margin-bottom:4px;color:var(--brown);font-weight:600}
+.card p{font-size:.93rem;color:#5d554c}
+.note{margin-top:22px;background:var(--sand);border-radius:16px;padding:14px 18px}
+.spa{background:linear-gradient(135deg,var(--sand),var(--cream))}
+.split{display:grid;gap:30px;grid-template-columns:1.1fr 1fr;align-items:center}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pics img{border-radius:20px;height:250px;width:100%;object-fit:cover}
+.pics img:first-child{grid-row:span 2;height:512px}
+.offer{display:flex;gap:18px;align-items:center;background:#fff;border-radius:20px;padding:16px;margin:18px 0 24px;box-shadow:0 6px 20px rgba(91,64,34,.08)}
+.offer img{width:110px;height:110px;border-radius:14px;object-fit:cover}
+.offer .pr{font-size:1.6rem;font-weight:700;color:var(--brown)}
+ul.ticks{list-style:none;margin:14px 0 22px}ul.ticks li{padding:5px 0}ul.ticks li::before{content:"◆ ";color:var(--taupe);font-size:.8rem}
+.bridal{background:var(--brown);color:var(--cream)}.bridal h2{color:#fff}.bridal .kick{color:var(--sand)}
+.bridal .btn{background:var(--cream);color:var(--brown)}
+.gallery{columns:3 250px;gap:12px}.gallery img{margin-bottom:12px;border-radius:16px;cursor:zoom-in;transition:.25s;width:100%}.gallery img:hover{opacity:.88}
+#lb{position:fixed;inset:0;background:rgba(46,42,38,.93);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+#lb.on{display:flex}#lb img{max-height:88vh;border-radius:12px}#lb button{position:absolute;top:18px;right:22px;background:none;border:0;color:#fff;font-size:2.2rem;cursor:pointer}
+.reviews{text-align:center;background:var(--sand)}.reviews .big{font-size:4rem;font-weight:700;line-height:1;color:var(--brown)}
+.stars{color:var(--brown);font-size:1.5rem;letter-spacing:3px}
+.about .feats{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:10px}
+.feat{background:#fff;border-radius:18px;padding:18px;border:1px solid var(--sand)}.feat b{color:var(--brown);display:block}
+.cta{text-align:center;background:url(img/p10.jpg) center/cover;position:relative;color:#fff}.cta::before{content:"";position:absolute;inset:0;background:rgba(46,42,38,.6)}.cta .wrap{position:relative}.cta h2{color:#fff}
+.contact{display:grid;gap:24px;grid-template-columns:1fr 1fr}.info div{margin-bottom:16px}.info b{color:var(--brown);display:block}
+iframe{width:100%;height:340px;border:0;border-radius:20px}
+.ltr{direction:ltr;unicode-bidi:embed;display:inline-block}
+.socials{display:flex;flex-wrap:wrap;gap:10px}.socials a{background:#fff;border:1px solid var(--sand);border-radius:999px;padding:6px 14px;text-decoration:none;font-size:.9rem}
+.women{background:var(--sand);border-radius:14px;padding:10px 16px;display:inline-block;font-weight:600}
+footer{background:var(--ink);color:#d9d1c7;text-align:center;padding:26px;font-size:.9rem}
+@media(max-width:860px){.links{display:none}.split,.contact{grid-template-columns:1fr}.pics img:first-child{height:250px;grid-row:auto}section{padding:56px 0}.hero{min-height:82vh}}
+</style>
+</head>
+<body>
+<div id="demoBadge">نسخة تجريبية / Demo</div>
+<header><nav class="wrap"><a class="brand" href="#home"><img src="img/logo.jpg" alt="شعار صالون غزالي">صالون غزالي</a>
+<div class="links"><a href="#services">الخدمات</a><a href="#spa">الحمام والسبا</a><a href="#bridal">العروس</a><a href="#gallery">المعرض</a><a href="#reviews">التقييمات</a><a href="#about">عن الصالون</a><a href="#contact">تواصلي معنا</a></div></nav></header>
+
+<section class="hero" id="home"><div class="wrap">
+<div class="rating">★ <b>4.4</b> من 1,895 تقييم على Google</div>
+<h1>صالون غزالي</h1>
+<p class="tag">نَستقبِلكُن بكُلِ الحُبْ</p>
+<p class="lead">صالون نسائي في حي العارض بالرياض — عناية بالشعر والبشرة، ليزر، أظافر، مكياج، حمام وسبا وتجهيز العروس.</p>
+<button class="btn" id="bookBtn" onclick="openChat()">احجزي موعدك</button><a class="btn ghost" href="#services">خدماتنا</a>
+</div></section>
+
+<section id="services"><div class="wrap"><p class="kick">خدماتنا</p><h2>كل ما تحتاجينه في مكان واحد</h2>
+<div class="grid">
+<div class="card"><img src="img/p16.jpg" alt="محطات غسيل الشعر" loading="lazy"><div><h3>العناية بالشعر</h3><p>قسم مجهّز للعناية بشعرك.</p></div></div>
+<div class="card"><img src="img/p13.jpg" alt="ركن العناية" loading="lazy"><div><h3>العناية بالبشرة</h3><p>جلسات تنظيف وعناية بالبشرة.</p></div></div>
+<div class="card"><img src="img/p17.jpg" alt="قسم التجميل" loading="lazy"><div><h3>إزالة الشعر بالليزر</h3><p>استفسري عن جلسات الليزر عبر مساعدتنا.</p></div></div>
+<div class="card"><img src="img/p06.jpg" alt="الأظافر" loading="lazy"><div><h3>الأظافر</h3><p>مناكير وباديكير.</p></div></div>
+<div class="card"><img src="img/p11.jpg" alt="صالة الانتظار" loading="lazy"><div><h3>المكياج</h3><p>إطلالتك لكل مناسبة.</p></div></div>
+<div class="card"><img src="img/p05.jpg" alt="غرفة الحمام" loading="lazy"><div><h3>الحمام والسبا</h3><p>غرف حمام وسبا هادئة.</p></div></div>
+</div>
+<p class="note">لتفاصيل الخدمات والأسعار تواصلي معنا على <a class="ltr" href="tel:+966555788182">055 578 8182</a></p>
+</div></section>
+
+<section class="spa" id="spa"><div class="wrap split">
+<div><p class="kick">الحمام والسبا</p><h2>لحظة لكِ وحدك</h2>
+<p>غرف حمام وسبا مجهّزة، في أجواء هادئة تمنحك وقتاً للاسترخاء.</p>
+<div class="offer"><img src="img/p02.jpg" alt="عرض A MOMENT FOR YOU" loading="lazy"><div><b>عرض A MOMENT FOR YOU</b><div class="pr">179 ر.س</div><small>لتفاصيل العرض اسألي مساعدتنا</small></div></div>
+<button class="btn" onclick="openChat()">احجزي جلستك</button></div>
+<div class="pics"><img src="img/p07.jpg" alt="غرفة الحمام" loading="lazy"><img src="img/p05.jpg" alt="غرفة الحمام" loading="lazy"><img src="img/p13.jpg" alt="أجواء السبا" loading="lazy"></div>
+</div></section>
+
+<section class="bridal" id="bridal"><div class="wrap split">
+<div><p class="kick">العروس</p><h2>يومك المميز يبدأ عندنا</h2>
+<p>نسعد بتجهيزك ليوم زفافك. لتفاصيل باقات العروس والمواعيد المتاحة، تحدثي مع مساعدتنا أو تواصلي مع فريق الصالون.</p><br>
+<button class="btn" onclick="openChat()">استفسري عن تجهيز العروس</button></div>
+<div class="pics"><img src="img/p23.jpg" alt="صالون غزالي" loading="lazy"><img src="img/p14.jpg" alt="ضيافة" loading="lazy"><img src="img/p22.jpg" alt="مبنى الصالون" loading="lazy"></div>
+</div></section>
+
+<section id="gallery"><div class="wrap"><p class="kick">المعرض</p><h2>من داخل غزالي</h2>
+<div class="gallery">
+<img src="img/p04.jpg" alt="واجهة الصالون ليلاً" loading="lazy"><img src="img/p10.jpg" alt="الاستقبال" loading="lazy"><img src="img/p16.jpg" alt="قسم الشعر" loading="lazy">
+<img src="img/p01.jpg" alt="مبنى الصالون" loading="lazy"><img src="img/p15.jpg" alt="ركن المنتجات" loading="lazy"><img src="img/p07.jpg" alt="غرفة الحمام" loading="lazy">
+<img src="img/p14.jpg" alt="الضيافة" loading="lazy"><img src="img/p06.jpg" alt="الأظافر" loading="lazy"><img src="img/p23.jpg" alt="صالون غزالي" loading="lazy">
+</div></div></section>
+
+<section class="reviews" id="reviews"><div class="wrap"><div class="big">4.4</div><div class="stars">★★★★☆</div><p>من 1,895 تقييم على Google</p>
+<p style="margin-top:14px">شكراً لثقة عميلاتنا 🤍</p></div></section>
+
+<section class="about" id="about"><div class="wrap"><p class="kick">عن الصالون</p><h2>صالون غزالي — العارض، الرياض</h2>
+<p>صالون نسائي يستقبلك بكل الحب، في مبنى متعدد الطوابق بحي العارض.</p>
+<div class="feats"><div class="feat"><b>للسيدات فقط</b>خصوصية وراحة تامة.</div><div class="feat"><b>مهيأ لذوي الإعاقة</b>مدخل مناسب للكراسي المتحركة.</div><div class="feat"><b>تقييم 4.4</b>من 1,895 تقييم على Google.</div></div>
+</div></section>
+
+<section class="cta" id="book"><div class="wrap"><h2>جاهزة لموعدك؟</h2><p style="margin-bottom:22px">احجزي الآن عبر مساعدتنا الذكية — بخطوات بسيطة.</p>
+<button class="btn" onclick="openChat()">احجزي موعدك</button></div></section>
+
+<section id="contact"><div class="wrap"><p class="kick">تواصلي معنا</p><h2>نسعد بزيارتك</h2>
+<div class="contact"><div class="info">
+<div><b>الموقع</b>حي العارض، الرياض — <span class="ltr">FJPQ+4W</span></div>
+<div><b>ساعات العمل</b>السبت–الخميس: ١٠ صباحاً – ١١ مساءً<br>الجمعة: ٣ عصراً – ١١ مساءً</div>
+<div><b>الهاتف / واتساب</b><a class="ltr" href="tel:+966555788182">055 578 8182</a> · <a href="https://wa.me/966555788182" target="_blank" rel="noopener">واتساب للتواصل</a></div>
+<div><b>حساباتنا</b><div class="socials"><a class="ltr" href="https://instagram.com/ghzalibeauty" target="_blank" rel="noopener">Instagram @ghzalibeauty</a><a class="ltr" href="https://snapchat.com/add/ghzalibeauty" target="_blank" rel="noopener">Snapchat @ghzalibeauty</a><a class="ltr" href="https://www.tiktok.com/@ghazali_beauty" target="_blank" rel="noopener">TikTok @ghazali_beauty</a><a class="ltr" href="https://linktr.ee/GHZALI_BEAUTY_" target="_blank" rel="noopener">linktr.ee</a></div></div>
+<p class="women">◆ الصالون مخصص للسيدات فقط</p>
+</div>
+<iframe title="الخريطة" loading="lazy" src="https://maps.google.com/maps?q=FJPQ%2B4W%20Al%20Aridh%2C%20Riyadh&z=16&output=embed"></iframe>
+</div></div></section>
+
+<footer>© صالون غزالي — العارض، الرياض · نسخة تجريبية / Demo</footer>
+<div id="lb"><button aria-label="إغلاق" onclick="lb.classList.remove('on')">×</button><img src="img/p04.jpg" alt="صورة مكبرة"></div>
+<script>
+const lb=document.getElementById('lb');
+document.querySelectorAll('.gallery img').forEach(i=>i.onclick=()=>{lb.querySelector('img').src=i.src;lb.classList.add('on')});
+lb.onclick=e=>{if(e.target===lb)lb.classList.remove('on')};
+function openChat(){if(window.voiceflow&&window.voiceflow.chat){window.voiceflow.chat.open()}else{window.__openWhenReady=true}}
+</script>
+<script type="text/javascript">
+(function(d,t){var v=d.createElement(t),s=d.getElementsByTagName(t)[0];v.onload=function(){window.voiceflow.chat.load({verify:{projectID:'6adf76cd1a63f897be3f4d34'},url:'https://general-runtime.voiceflow.com',voice:{url:'https://runtime-api.voiceflow.com'},environmentID:'main',versionVariant:'published'}).then(function(){if(window.__openWhenReady)window.voiceflow.chat.open()})};v.src="https://cdn.voiceflow.com/widget-next/bundle.mjs";v.type="text/javascript";s.parentNode.insertBefore(v,s)})(document,'script');
+</script>
+</body></html>
